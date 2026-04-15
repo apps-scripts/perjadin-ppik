@@ -1,25 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>PERJADIN-PPIK</title>
+    <meta charset="UTF-8">
+    <title>PERJADIN-PPIK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- 1. ICON UNTUK TAB BROWSER (FAVICON) -->
+    <link rel="icon" type="image/png" href="https://www.transparentpng.com/thumb/instagram-logo-icon/fDVILS-instagram-logo-amazing-image-download.png">
+    
+    <!-- 2. ICON UNTUK HP (APPLE TOUCH ICON / ANDROID) -->
+    <link rel="apple-touch-icon" href="https://www.transparentpng.com/thumb/instagram-logo-icon/fDVILS-instagram-logo-amazing-image-download.png">
+    
+    <!-- 3. WARNA BAR BROWSER MOBILE -->
+    <meta name="theme-color" content="#2563eb">
+
+    <style>
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            height: 100%; 
+            width: 100%;
+            overflow: hidden; 
+            background-color: #f8fafc;
+        }
+        iframe { 
+            width: 100%; 
+            height: 100%; 
+            border: none; 
+            display: block;
+        }
+    </style>
 </head>
 <body>
-  <iframe 
-    src="https://script.google.com/macros/s/AKfycbxiuA9pxLvp0xo5JfK15IxIVxMRhCKfkQDvd8vrJnv_qUl4gnpHNvXce-rYPcbYeGJQmA/exec"
-    width="100%"
-    height="100%"
-    allowfullscreen="true"
-    style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none;">
-  </iframe>
-
-  <script>
-    window.onload = function() {
-      document.querySelector('iframe')
-        .requestFullscreen()
-        .catch((err) => {
-          console.error('Error attempting to enable full-screen mode:', err.message);
-        });
-    };
-  </script>
+    <!-- GANTI URL DI BAWAH DENGAN URL WEB APP GOOGLE ANDA -->
+    <iframe src="https://script.google.com/macros/s/AKfycbxiuA9pxLvp0xo5JfK15IxIVxMRhCKfkQDvd8vrJnv_qUl4gnpHNvXce-rYPcbYeGJQmA/exec"></iframe>
 </body>
 </html>
